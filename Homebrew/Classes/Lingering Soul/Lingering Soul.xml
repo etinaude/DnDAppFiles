@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<baseclass name="Lingering Soul" HB="HB">
+<compendium version="5" HB="HB">
+	<baseclass name="Lingering Soul">
 		<name>Lingering Soul</name>
 		<hd>6</hd>
 		<proficiency>Constitution, History, Investigation, Insight, Intimidation, Perception, Religion, Sleight of Hand, Stealth</proficiency>

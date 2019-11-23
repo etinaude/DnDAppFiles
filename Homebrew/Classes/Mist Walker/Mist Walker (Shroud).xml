@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<subclass baseclass="Mist Walker" HB="HB">
+<compendium version="5" HB="HB">
+	<subclass baseclass="Mist Walker">
 		<name>Mist Walker (Shroud)</name>
 		<autolevel level="3">
 			<feature optional="YES">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<subclass baseclass="Warlock" HB="HB">
+<compendium version="5" HB="HB">
+	<subclass baseclass="Warlock">
 		<name>Warlock (The Chaos)</name>
 		<autolevel level="1">
 			<feature optional="YES">
