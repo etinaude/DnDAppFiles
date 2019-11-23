@@ -235,7 +235,7 @@
 			</feature>
 		</autolevel>
 		<!-- Repeated Eldritch Invocation -->
-		<autolevel level="2">
+		<autolevel level="2" IL="IL">
 			<feature optional="YES">
 				<name>Eldritch Invocation: Agonizing Blast</name>
 				<text>Prerequisite: eldritch blast cantrip</text>
@@ -344,7 +344,7 @@
 				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="5">
+		<autolevel level="5" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 			<feature optional="YES">
 				<name>Eldritch Invocation: Cloak of Flies</name>
@@ -522,7 +522,7 @@
 				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="7">
+		<autolevel level="7" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 			<feature optional="YES">
 				<name>Eldritch Invocation: Bewitching Whispers</name>
@@ -731,7 +731,7 @@
 				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="9">
+		<autolevel level="9" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 			<feature optional="YES">
 				<name>Eldritch Invocation: Ascendant Step</name>
@@ -964,7 +964,7 @@
 				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
+		<autolevel level="12" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 			<feature optional="YES">
 				<name>Eldritch Invocation: Lifedrinker</name>
@@ -1203,7 +1203,7 @@
 				<text>You can cast speak with dead at will, without expending a spell slot.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="15">
+		<autolevel level="15" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 			<feature optional="YES">
 				<name>Eldritch Invocation: Chains of Carceri</name>
@@ -1472,7 +1472,7 @@
 				<text>You can cast speak with dead at will, without expending a spell slot.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="18">
+		<autolevel level="18" IL="IL">
 			<!-- Newly available Invocations (level prerequisite)-->
 		</autolevel>
 		<autolevel level="18" IL="IL">
@@ -1742,7 +1742,7 @@
 			</feature>
 		</autolevel>
 		<!-- Unearthed Arcana Eldritch Invocations-->
-		<autolevel level="2">
+		<autolevel level="2" IL="IL">
 			<feature UA="Revised Class Options" optional="YES">
 				<name>Eldritch Invocation: Frost Lance (UA)</name>
 				<text>Prerequisite: eldritch blast cantrip</text>
@@ -1752,7 +1752,7 @@
 				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="5">
+		<autolevel level="5" IL="IL">
 			<feature UA="Revised Class Options" optional="YES">
 				<name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
 				<text>Prerequisite: 5th level, eldritch blast cantrip</text>
@@ -1763,7 +1763,7 @@
 			</feature>
 		</autolevel>
 		<!-- Eldritch Invocations from Warlock & Wizard not repeated/replaced in Revised Class Options-->
-		<autolevel level="2">
+		<autolevel level="2" IL="IL">
 			<feature UA="Warlock &amp; Wizard" optional="YES">
 				<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
 				<text>Prerequisite: The Great Old One patron</text>
