@@ -156,12 +156,12 @@
 			<feature optional="YES">
 				<name>Metamagic: Distant Spell</name>
 				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
-				<text> When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				<text>	When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Empowered Spell</name>
 				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
-				<text> You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text>	You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Extended Spell</name>
@@ -303,14 +303,14 @@
 		<classes>Sorcerer Metamagic</classes>
 		<level>1</level>
 		<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
-		<text> When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+		<text>	When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
 	</spell>
 	<spell PS="PS">
 		<name>Metamagic: Empowered Spell</name>
 		<classes>Sorcerer Metamagic</classes>
 		<level>1</level>
 		<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
-		<text> You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+		<text>	You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
 	</spell>
 	<spell PS="PS">
 		<name>Metamagic: Extended Spell</name>
