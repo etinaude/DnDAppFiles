@@ -156,12 +156,12 @@
 			<feature optional="YES">
 				<name>Metamagic: Distant Spell</name>
 				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
-				<text>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				<text> When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Empowered Spell</name>
 				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
-				<text>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				<text> You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Extended Spell</name>
@@ -181,7 +181,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Twinned Spell</name>
-				<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
 		<autolevel level="4" scoreImprovement="YES">
@@ -228,7 +228,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Twinned Spell</name>
-				<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
 		<autolevel level="12" scoreImprovement="YES">
@@ -277,7 +277,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Twinned Spell</name>
-				<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
 		<autolevel level="18">
@@ -303,14 +303,14 @@
 		<classes>Sorcerer Metamagic</classes>
 		<level>1</level>
 		<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</text>
-		<text>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+		<text> When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
 	</spell>
 	<spell PS="PS">
 		<name>Metamagic: Empowered Spell</name>
 		<classes>Sorcerer Metamagic</classes>
 		<level>1</level>
 		<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</text>
-		<text>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+		<text> You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
 	</spell>
 	<spell PS="PS">
 		<name>Metamagic: Extended Spell</name>
@@ -340,6 +340,6 @@
 		<name>Metamagic: Twinned Spell</name>
 		<classes>Sorcerer Metamagic</classes>
 		<level>1</level>
-		<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+		<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 	</spell>
 </compendium>
