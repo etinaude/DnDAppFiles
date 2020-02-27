@@ -22,7 +22,9 @@ from glob import glob
 from xml.etree import ElementTree as et
 from xml.etree.ElementTree import ParseError
 
-COMPENDIUM = 'Compendiums/{category} Compendium.xml'
+PATH_SEP = os.path.sep
+
+COMPENDIUM = PATH_SEP.join(['Compendiums','{category} Compendium.xml'])
 
 
 class XMLCombiner(object):
@@ -231,8 +233,9 @@ def create_category_compendiums():
         # filenames = glob('%s/*.xml' % category)
         filenames = []
 
-        if category is 'Homebrew':  # populate base classes to allow for homebrew archetypes
-            for root, dirnames, fnames in os.walk('Character/Classes'):
+        if category == 'Homebrew':  # populate base classes to allow for homebrew archetypes
+            class_dir = PATH_SEP.join(['Character', 'Classes'])
+            for root, dirnames, fnames in os.walk(class_dir):
                 for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
                     class_name = re.search('(.*)\.xml', filename).groups()[0]
                     if args.includes == ['*'] or args.includes == ['Homebrew'] or class_name in args.includes:
@@ -253,14 +256,17 @@ def create_class_compendiums():
     classes = {}
     output_paths = []
 
-    files = glob('Character/Classes/*/*.xml')
+    class_files = PATH_SEP.join(['Character','Classes','*','*.xml'])
+    files = glob(class_files)
 
     if (args.includes == ['*'] and 'HB' not in args.excludes) or 'Homebrew' in args.includes:
-        files += glob('Homebrew/Classes/*/*.xml')
+        homebrew_class_files = PATH_SEP.join(['Homebrew','Classes','*','*.xml'])
+        files += glob(homebrew_class_files)
 
     # Group source xml files into base class
     for file in files:
-        class_name, subclass_name = re.search(r"/([^/]+)/([^/]+)\.xml$", file).groups()
+        sub_class_regex = PATH_SEP.join(["","([^","]+)","([^","]+)\.xml$"])
+        class_name, subclass_name = re.search(sub_class_regex, file).groups()
         if args.includes == ['*'] or (class_name in args.includes):
             if class_name not in classes:
                 classes[class_name] = []
