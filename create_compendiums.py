@@ -22,7 +22,7 @@ from glob import glob
 from xml.etree import ElementTree as et
 from xml.etree.ElementTree import ParseError
 
-PATH_SEP = os.path.sep
+PATH_SEP = re.escape(os.path.sep)
 
 COMPENDIUM = PATH_SEP.join(['Compendiums','{category} Compendium.xml'])
 
