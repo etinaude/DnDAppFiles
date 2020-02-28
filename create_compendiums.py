@@ -22,7 +22,7 @@ from glob import glob
 from xml.etree import ElementTree as et
 from xml.etree.ElementTree import ParseError
 
-PATH_SEP = re.escape(os.path.sep)
+PATH_SEP = os.path.sep
 
 COMPENDIUM = PATH_SEP.join(['Compendiums','{category} Compendium.xml'])
 
@@ -265,7 +265,7 @@ def create_class_compendiums():
 
     # Group source xml files into base class
     for file in files:
-        sub_class_regex = PATH_SEP.join(["","([^","]+)","([^","]+)\.xml$"])
+        sub_class_regex = re.escape(PATH_SEP).join(["","([^","]+)","([^","]+)\.xml$"])
         class_name, subclass_name = re.search(sub_class_regex, file).groups()
         if args.includes == ['*'] or (class_name in args.includes):
             if class_name not in classes:
