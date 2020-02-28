@@ -177,6 +177,7 @@ class XMLCombiner(object):
                         continue
                     if c_name not in items['baseclass']:
                         print('Missing baseclass {0} for {1}'.format(c_name, name))
+                        continue
 
                     complete_class = items['class'][c_name]
                     complete_class.extend(list(element))
