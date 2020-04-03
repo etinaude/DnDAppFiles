@@ -46,4 +46,5 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<borrowSpells fromClass="Cleric" class="Sorcerer (Divine Soul)"/>
 </compendium>
