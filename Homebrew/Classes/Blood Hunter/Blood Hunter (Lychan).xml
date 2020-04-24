@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<subclass baseclass="Blood Hunter" HB="HB">
+<compendium version="5" HB="HB">
+	<subclass baseclass="Blood Hunter">
 		<name>Blood Hunter (Lychan)</name>
 		<autolevel level="3">
 			<feature optional="YES">

@@ -22,7 +22,7 @@
 			<text>You have the authority to enforce the laws of Ravnica, and that status inspires a certain amount of respect and even fear in the populace. People mind their manners in your presence and avoid drawing your attention; they assume you have the right to be wherever you are. Showing your Azorius insignia gets you an audience with anyone you want to talk to (though it might cause more problems than it solves when you're dealing with incorrigible lawbreakers). If you abuse this privilege, though, you can get in serious trouble with your superiors and even be stripped of your position.</text>
 		</trait>
 	</background>
-	<spellList class="Azorius Guild">
+	<spellList class="Guild Azorius">
 		<index name="Friends"/>
 		<index name="Message"/>
 		<index name="Command"/>
@@ -57,7 +57,7 @@
 			<text>You have an established place in the hierarchy of the Boros Legion. You can requisition simple equipment for temporary use, and you can gain access to any Boros garrison in Ravnica, where you can rest in safety and receive the attention of medics. You are also paid a salary of 1 gp (a Boros-minted 1-zino coin) per week, which (combined with free lodging in your garrison) enables you to maintain a poor lifestyle between adventures.</text>
 		</trait>
 	</background>
-	<spellList class="Boros Guild">
+	<spellList class="Guild Boros">
 		<index name="Fire Bolt"/>
 		<index name="Sacred Flame"/>
 		<index name="Guiding Bolt"/>
@@ -103,7 +103,7 @@
 			<text>8   I chose this guild at random or on a lark.</text>
 		</trait>
 	</background>
-	<spellList class="Dimir Guild">
+	<spellList class="Guild Dimir">
 		<index name="Encode Thoughts"/>
 		<index name="Mage Hand"/>
 		<index name="Disguise Self"/>
@@ -138,7 +138,7 @@
 			<text>You know hidden, underground pathways that you can use to bypass crowds, obstacles, and observation as you move through the city. When you aren't in combat, you and companions you lead can travel between any two lo- cations in the city twice as fast as your speed would normally allow. The paths of the undercity are haunted by dangers that rarely brave the light of the surface world, so your journey isn't guaranteed to be safe.</text>
 		</trait>
 	</background>
-	<spellList class="Golgari Guild">
+	<spellList class="Guild Golgari">
 		<index name="Dancing Lights"/>
 		<index name="Spare the Dying"/>
 		<index name="Entangle"/>
@@ -174,7 +174,7 @@
 			<text>You are intimately familiar with areas of the city that most people shun: ruined neighborhoods where wurms rampaged, overgrown parks that no hand has tended in decades, and the vast. sprawling rubblebelts of broken terrain that civilized folk have long abandoned. You can find a suitable place for you and your allies to hide or rest in these areas. In addition, you can find food and fresh water in these areas for yourself and up to five other people each day.</text>
 		</trait>
 	</background>
-	<spellList class="Gruul Guild">
+	<spellList class="Guild Gruul">
 		<index name="Fire Bolt"/>
 		<index name="Produce Flame"/>
 		<index name="Compelled Duel"/>
@@ -210,7 +210,7 @@
 			<text>	You have a basic knowledge of the structure of buildings, including the stuff behind the walls. You can also find blueprints of a specific building in order to learn the details of its construction. Such blueprints might provide knowledge of entry points, structural weaknesses, or secret spaces. Your access to such information isn't unlimited. If obtaining or using the information gets you in trouble with the law, the guild can't shield you from the repercussions.</text>
 		</trait>
 	</background>
-	<spellList class="Izzet Guild">
+	<spellList class="Guild Izzet">
 		<index name="Produce Flame"/>
 		<index name="Shocking Grasp"/>
 		<index name="Chaos Bolt"/>
@@ -244,7 +244,7 @@
 			<text>You can exert leverage over one or more individuals below you in the guild's hierarchy and demand their help as needs warrant. For example, you can have a message carried across a neighborhood, procure a short carriage ride without paying, or have others clean up a bloody mess you left in an alley. The DM decides if your demands are reasonable and if there are subordinates available to fulfill them. As your status in the guild improves, you gain influence over more people, including ones in greater positions of power.</text>
 		</trait>
 	</background>
-	<spellList class="Orzhov Guild">
+	<spellList class="Guild Orzhov">
 		<index name="Friends"/>
 		<index name="Guidance"/>
 		<index name="Command"/>
@@ -281,7 +281,7 @@
 			<text>People recognize you as a member of the Cult of Rakdos, and they're careful not to draw your anger or ridicule. You can get away with minor criminal offenses, such as refusing to pay for food at a restaurant or breaking down a door at a local shop, if no legal authorities witness the crime. Most people are too daunted by you to report your wrongdoing to the Azorius.</text>
 		</trait>
 	</background>
-	<spellList class="Rakdos Guild">
+	<spellList class="Guild Rakdos">
 		<index name="Fire Bolt"/>
 		<index name="Vicious Mockery"/>
 		<index name="Burning Hands"/>
@@ -317,7 +317,7 @@
 			<text>	In addition, as a guild member you can receive free healing and care at a Selesnya enclave, though you must provide any material components needed for spells.</text>
 		</trait>
 	</background>
-	<spellList class="Selesnya Guild">
+	<spellList class="Guild Selesnya">
 		<index name="Druidcraft"/>
 		<index name="Friends"/>
 		<index name="Aid"/>
@@ -351,7 +351,7 @@
 			<text>	Your DM might rule that the knowledge you seek is secreted away in an inaccessible place, or that it simply can't be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.</text>
 		</trait>
 	</background>
-	<spellList class="Simic Guild">
+	<spellList class="Guild Simic">
 		<index name="Acid Splash"/>
 		<index name="Druidcraft"/>
 		<index name="Detect Poison and Disease"/>

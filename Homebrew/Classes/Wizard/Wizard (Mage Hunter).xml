@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<subclass baseclass="Wizard" HB="HB">
+<compendium version="5" HB="HB">
+	<subclass baseclass="Wizard">
 		<name>Wizard (Mage Hunter)</name>
 		<autolevel level="2">
 			<feature optional="YES">

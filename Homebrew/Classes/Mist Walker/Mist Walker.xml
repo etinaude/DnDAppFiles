@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<baseclass name="Mist Walker" HB="HB">
+<compendium version="5" HB="HB">
+	<baseclass name="Mist Walker">
 		<name>Mist Walker</name>
 		<hd>10</hd>
 		<proficiency>Dexterity, Intelligence, Acrobatics, Deception, History, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth</proficiency>
