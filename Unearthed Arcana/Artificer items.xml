@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
+<compendium version="5" UA="Artificer">
 	<!-- Artificer Class and Subclass (Specialist) and spells de-duplicated into /Classes,
 but this project doesn't have a good solution to PC Monster and Magic Item compendiums yet -->
 	<item>

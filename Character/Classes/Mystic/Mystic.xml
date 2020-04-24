@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<baseclass UA="The Mystic Class">
+<compendium version="5" UA="The Mystic Class">
+	<baseclass>
 		<name>Mystic (UA)</name>
 		<hd>8</hd>
 		<proficiency>Intelligence, Wisdom, Arcana, History, Insight, Medicine, Nature, Perception, Religion</proficiency>
